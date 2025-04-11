@@ -129,4 +129,4 @@ else:
     st.info("Please upload an image file to begin detection.")
 
 st.write("---")
-st.markdown("ONE POTHOLW AT A TIME!!.")
+st.markdown("ONE POTHOLE AT A TIME!!.")
