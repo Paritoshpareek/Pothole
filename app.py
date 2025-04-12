@@ -118,7 +118,7 @@ if uploaded_file is not None:
 
             if processed_image is not None:
                  # Display the processed image. Convert BGR to RGB.
-                st.image(cv2.cvtColor(processed_image, cv2.COLOR_BGR2RGB), caption='Processed Image with Detections.', use_column_width=True)
+                st.image(cv2.cvtColor(processed_image, cv2.COLOR_BGR2RGB), caption='Processed Image with Detections.', use_container_width=True)
                 if count > 0:
                     st.success(f"Detected {count} potential pothole(s) based on current parameters.")
                 else:
